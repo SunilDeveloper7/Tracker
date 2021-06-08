@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
-
+html {
+  background-color:cornflowerblue;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,9 +17,11 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 5px solid steelblue;
   padding: 30px;
   border-radius: 5px;
+  
+  
 }
 
 .header {
